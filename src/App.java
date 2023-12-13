@@ -5,6 +5,7 @@ public class App {
 
         Scanner t = new Scanner(System.in);
 
+        //a
         System.out.println("Ange namn: ");
         String namn = t.nextLine();
         System.out.println("Ange lösenord: ");
