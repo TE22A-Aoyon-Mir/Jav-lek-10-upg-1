@@ -17,5 +17,16 @@ public class App {
         else{
             System.out.println("Fel namn och lösenord");
         }
+
+        //b
+        System.out.println("\n");
+        System.out.println("Ange tal: ");
+        int tal = t.nextInt();
+        if(tal>10){
+            System.out.println("Talet är större än 10");
+        }
+        else{
+            System.out.println("Talet är lika med eller mindre än 10");
+        }
     }
 }
